@@ -86,9 +86,13 @@ module.exports = function(controller) {
     });
     
     controller.hears(['^help$'], 'direct_message,direct_mention', function(bot, message) {
-        j = {"text": "`add task`: to add tasks to your schedule\n`view tasks`: to view tasks\n`add courses`: to add courses\n`view courses`: to view list of your courses\n`fetch schedule`: to get the week's schedule\n`add to calendar`: to add your schedule to Google Calendar"};
+        j = {"text": "`add task`: to add tasks to your schedule\n`view tasks`: to view tasks\n`add courses`: to add courses\n`view courses`: to view list of your courses\n`fetch schedule`: to get the week's schedule\n`add to calendar`: to add your schedule to Google Calendar\n`parse course`: add a file of your course and watch us make a schedule"};
         bot.reply(message, j)
     });
+
+	controller.hears(['^fetch schedule$'], 'direct_message,direct_mention', function(bot, message) {
+		console.log("hi");
+	});
 
 	controller.hears(['^fetch schedule$'], 'direct_message,direct_mention', function(bot, message) {
         console.log("fetching schedule")

@@ -90,7 +90,7 @@ module.exports = function(controller) {
         bot.reply(message, j)
     });
 
-	controller.hears(['^fetch schedule$'], 'direct_message,direct_mention', function(bot, message) {
+	controller.hears(['^parse course'], 'direct_message,direct_mention', function(bot, message) {
 		console.log("hi");
 	});
 

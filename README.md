@@ -89,7 +89,7 @@ _**Fig 7.** Add schedule to your Google Calendar_
 9. Do a `npm install & npm start` from the WolfPlanner directory to install all the packages required by Node.js.
 
 ### Contributors
-Neel Kapadia - [ntkapadi](https://github.com/neelkapadia)<br/>
-Rohit Naik - [rtnaik](https://github.com/rohitnaik246)<br/>
-Sainag Shetty - [sgshetty](https://github.com/SainagShetty)<br/>
-Rohan Chandavarkar - [rgchanda](https://github.com/RohanChandavarkar)
+Sanya Kathuria - [skathur2]<br/>
+Shivam Chamoli - [schamol]<br/>
+Madhu Vamsi - [mmachav]<br/>
+Abhishek Bhardwaj - [abhardw3]

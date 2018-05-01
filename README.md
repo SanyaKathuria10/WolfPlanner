@@ -1,7 +1,11 @@
-# WolfPlanner
+# WolfPlanner 2.0
 ### Problem Statement
 With the number of tasks increasing day-by-day, it is becoming difficult for individuals to manage so many tasks considering the varying amount of time available and required to complete them. It requires continuous and active effort to create weekly schedules. This leads to wastage of valuable time, and poor planning might lead to excessive workloads. In such situations, an application that makes a schedule (time-table) for the individuals taking into account their pending tasks, deadlines will be a great asset for students. 
  
+1. Still helps manage projects, assignments, homeworks and various deadlines
+2. Schedule for a day vs Schedule for a week: Just enter tasks and courses and watch the magic!
+3. Plan a meeting: Project deadlines, can’t come to a consensus about timings, let WolfPlanner take control
+4. Parse a course.
 
 ### Basic Flow of the System
 Before showing a typical communication with the bot, let us discuss some points about the application.
